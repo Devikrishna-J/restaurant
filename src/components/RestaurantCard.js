@@ -2,7 +2,7 @@ import React from 'react'
 import {Card} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 function RestaurantCard({data}) {
-    
+    console.log(data)
   return (
             <Link to ={`restaurants/${data.id}`}>
             <Card style={{ width: '18rem' }}>

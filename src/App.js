@@ -11,8 +11,10 @@ function App() {
       <Header/>
       <main className='py-3'>
         <Routes>
-            <Route path='/' element={<Home/>}/>
-            <Route path='/restaurants/:id' element={<RestaurantDetails />} />
+               
+               <Route path='/restaurants/:id' element={<RestaurantDetails />} />
+               <Route path="/" element={<Home/>} />
+               
         </Routes>
         </main>
       <Footer/>

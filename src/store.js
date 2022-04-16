@@ -4,7 +4,7 @@ import {restaurantListReducer} from './reducers/restaurantReducers'
 
 
 const reducers = combineReducers({
-                restaurantReducer: restaurantListReducer,
+                restaurantReducer: restaurantListReducer
 
 
 })

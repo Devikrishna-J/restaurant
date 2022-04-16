@@ -3,7 +3,7 @@ import { Row,Col } from 'react-bootstrap'
 import RestaurantCard from './RestaurantCard'
 import { useDispatch, useSelector} from 'react-redux'
 import { listRestaurants } from '../actions/restaurantAction'
-import { restaurantListReducer } from '../reducers/restaurantReducers'
+//import { restaurantListReducer } from '../reducers/restaurantReducers'
 
 function Home() {
 
@@ -27,7 +27,7 @@ function Home() {
       <Row>
       {restaurants.map(item => (
        <Col sm={12} md={8} lg={4} xl={3}>
-       <RestaurantCard data={item} ></RestaurantCard>
+       <RestaurantCard data={item} />
    </Col>
         
       ))}

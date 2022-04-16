@@ -2,6 +2,7 @@ import {RESTAURANT_LIST_FAIL,
         RESTAURANT_LIST_SUCCESS,
         RESTAURANT_LIST_REQUEST
     } from '../constants/restaurantConstants'
+    
 
     export const restaurantListReducer = ( states = { restaurants: [] }, actions ) => {
             switch(actions.type){
